@@ -1,0 +1,201 @@
+/* Main Window Styles */
+QMainWindow {
+    background-color: #ffffff;
+}
+
+/* Dialog Styles */
+QDialog {
+    background-color: #ffffff;
+}
+
+/* Label Styles */
+QLabel {
+    color: #333333;
+}
+
+QLabel[header="true"] {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+}
+
+QLabel[price="true"] {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+QLabel[specs="true"] {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+QLabel[cart_counter="true"] {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Frame Styles */
+QFrame[card="true"] {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Product Image Label */
+QFrame[card="true"] QLabel {
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+/* Cart Button */
+QPushButton[cart="true"] {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+QPushButton[cart="true"]:hover {
+    background-color: #0056b3;
+}
+
+/* Cart Frame */
+QFrame#cart_frame {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+/* Cart Item Styles */
+QFrame#cart_item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+QFrame#cart_item QLabel {
+    font-weight: bold;
+    color: #333333;
+}
+
+QFrame#cart_item QLabel[price="true"] {
+    color: #007bff;
+}
+
+/* Remove Button */
+QPushButton#remove_btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+QPushButton#remove_btn:hover {
+    background-color: #c82333;
+}
+
+/* Checkout Form Styles */
+QFrame#fields_container {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+}
+
+QLabel#required_note {
+    color: #6c757d;
+    font-size: 12px;
+}
+
+QFrame#items_container {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+}
+
+QFrame#item_widget {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+/* Form Fields */
+QLineEdit, QSpinBox, QTextEdit {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+QLineEdit:focus, QSpinBox:focus, QTextEdit:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+QPushButton:pressed {
+    background-color: #004085;
+}
+
+/* Scroll Area */
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background-color: #f8f9fa;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #ced4da;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #adb5bd;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background-color: #f8f9fa;
+    height: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #ced4da;
+    border-radius: 5px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #adb5bd;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+} 
