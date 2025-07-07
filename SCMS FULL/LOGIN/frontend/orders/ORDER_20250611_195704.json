@@ -1,0 +1,26 @@
+{
+    "order_id": "ORDER_20250611_195704",
+    "timestamp": "2025-06-11T19:57:04.551162",
+    "customer": {
+        "name": "mmmmm",
+        "email": "m@gmail.com",
+        "address": "mmmm\n"
+    },
+    "items": [
+        {
+            "id": 2,
+            "name": "Smartphone Pro",
+            "price": 799.99,
+            "quantity": 1
+        }
+    ],
+    "total": 799.99,
+    "status": "pending",
+    "status_history": [
+        {
+            "status": "pending",
+            "timestamp": "2025-06-11 19:57:04",
+            "notes": "Order created"
+        }
+    ]
+}
