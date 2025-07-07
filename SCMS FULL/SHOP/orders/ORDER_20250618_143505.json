@@ -1,0 +1,28 @@
+{
+  "order_id": "ORDER_20250618_143505",
+  "timestamp": "2025-06-18T14:35:05.708706",
+  "username": "user",
+  "customer": {
+    "name": "Krish",
+    "email": "krish@gmail.com",
+    "phone": "7856235689",
+    "address": "KLM"
+  },
+  "items": [
+    {
+      "id": "101",
+      "name": "Laptop",
+      "price": 150.0,
+      "quantity": 1
+    }
+  ],
+  "total": 150.0,
+  "status": "Completed",
+  "status_history": [
+    {
+      "status": "pending",
+      "timestamp": "2025-06-18 14:35:05",
+      "notes": "Order created"
+    }
+  ]
+}
